@@ -1,8 +1,8 @@
 #include <SoftwareSerial.h>
 
 #define ledPin 13
-#define rxPin 10
-#define txPin 11
+#define rxPin 1
+#define txPin 0
 
 SoftwareSerial btSerial(rxPin, txPin);
 String btData;
